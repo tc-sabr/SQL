@@ -23,12 +23,15 @@ WHERE
 
 -- Part 2c: fins actors whose last name contains LI and order last name then first name
 SELECT
-	last_name
-    , first_name
+	first_name
+    , last_name
 FROM
 	actor
 WHERE
 	last_name LIKE '%LI%'
+ORDER BY
+	last_name
+    , first_name
 ;
 
 -- Part 2d: use in to display id and country of Afghanistan, Bangladesh, and China
