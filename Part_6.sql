@@ -1,6 +1,6 @@
 USE Sakila;
 
--- Part 6a: use join to dsiplay first, last & address of staff
+-- Part 6a: use join to display first, last & address of staff
 SELECT
 	s.first_name
     , s.last_name
